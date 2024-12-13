@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { BACKEND } from "../global";
 
 const AddPokemonPage = () => {
-    const BACKEND = "https://localhost:8000"
     const [selectedTypes, setSelectedTypes] = useState([]);
     const [stats, setStats] = useState({
         hp: "",

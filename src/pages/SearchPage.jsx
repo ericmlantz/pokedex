@@ -37,7 +37,7 @@ const SearchPage = () => {
     useEffect(() => {
         const fetchTypes = async () => {
             try {
-                const response = await fetch(`${BACKEND}/types`);
+                const response = await fetch(`http://localhost:8000/types`);
                 if (!response.ok) {
                     throw new Error('Failed to fetch types');
                 }
